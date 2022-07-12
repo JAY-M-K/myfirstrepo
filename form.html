@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormTrial</title>
+</head>
+
+<body>
+    <form action="#" method="post">
+        <div>
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" name="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for=" email">Email:</label>
+            <br>
+            <input type="text" name="email" id="email">
+        </div>
+        <br>
+
+        <div>
+            <label>Gender:</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="gender">
+
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" id="gender">
+        </div>
+        <br>
+        <div>
+            <label>Proffession: </label>
+            <select name="proffession" id="proffession">
+                <option value="null">None</option>
+                <option value="driver">Driver</option>
+                <option value="shopkeeper ">Shopkeeper</option>
+                <option value="salesmMan">Salesman</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="comment">Comment: </label>
+            <br>
+            <textarea name="Answers" id="comment" cols="60" rows="3"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" name="agreeToTerms" id="agreeToTerms">I accept the terms and conditions.</input>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit form">
+            <input type="reset" value="Reset form">
+        </div>
+
+    </form>
+</body>
+
+</html>
