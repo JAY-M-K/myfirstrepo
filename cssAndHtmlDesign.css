@@ -1,0 +1,51 @@
+.header, .footer, .main{
+    background-color: #FFC8AE;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    border-style: solid;
+    border-color: #BD081C;
+
+}
+.main>div {
+    display: flex;
+}
+
+
+.nav{
+    background-color: #E0FFA8;
+    padding: 10px;
+    border-style: solid;
+    border-color: #598527;
+}
+
+
+.article{
+    width:80%;
+    background-color:#DDDDDD;
+    padding-top:2px;
+    padding: 10px;
+    margin-right:10px;
+    border-style: solid;
+    border-color:#484848;
+
+}
+
+.article>section {
+    background-color: #CCFFFF;
+    padding: 10px;
+    border-style: solid;
+    border-color:#6C9CC4;
+}
+
+.aside{
+    background-color: #DDDDDD;
+    padding: 10px;
+    width: 10%;
+    float: right;
+    border-style: solid;
+    border-color:#484848;
+
+}
